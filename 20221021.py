@@ -32,5 +32,13 @@ print(food)
 # 문자열 안에 큰 따옴표 포함
 say = '"Python is very easy." he says'
 print(say)
-# 여러줄인 문자열을 변수에 대입하고 싶을떄 
-
+# 여러줄인 문자열을 변수에 대입하고 싶을떄
+##1. 줄을 바꾸는 이스케이프 코드 \n 삽입
+multiline = "Life is too short\n You need python"
+print(multiline)
+##2. 연속된 작은 따옴표 3개(''') 또는 큰따옴표 3개(""") 사용하기
+multilines = """
+  Life is too short 
+  You need python!!
+"""
+print(multilines)
