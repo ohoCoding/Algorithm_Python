@@ -42,6 +42,28 @@ print(",".join(["a", "b", "c", "d"]))
 a = "hi"
 print(a.upper())
 
-# 5. 대문자를 소문자로 바꾸기 
-a ="HI"
+# 5. 대문자를 소문자로 바꾸기
+a = "HI"
 print(a.lower())
+
+# 6. 왼쪽 공백지우기
+a = " nnicee "
+print(a.lstrip())
+
+# 7.오른쪽  공백 지우기
+a = " nice "
+print(a.rstrip())
+
+# 8. 양쪽 공백 지우기
+a = " coding "
+print(a.strip())
+
+# 9. 문자열 바꾸기
+a = "We can not make enough moeny to buy my own home"
+print(a.replace("We", "You"))
+
+# 10. 문자열 나누기
+a = "Life is too short"
+print(a.split())
+b = "a: b: c: d"
+print(b.split(":"))
