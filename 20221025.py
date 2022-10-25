@@ -94,4 +94,24 @@ a.remove(3)
 print(a)
 
 ##3.13 리스트 요소 끄집어내기(pop)
+a = [1, 2, 3]
+## 리스트의 맨 마지막 요소를 돌려주고 그 요소는 삭제
+print(a.pop())
+print(a)
 
+a = [1, 2, 3]
+## 리스트의 x번쨰 요소를 돌려주고 그 요소는 삭제
+print(a.pop(1))
+print(a)
+
+##3.14 리스트에 포함된 요소 x의 개수 세기
+a = [1, 2, 3, 1]
+print(a.count(1))
+
+##3.15 리스트 확장
+a = [1, 2, 3]
+a.extend([4, 5])
+print(a)
+b = [6, 7]
+b.extend(a)
+print(b)
